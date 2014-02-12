@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -30,6 +31,10 @@ gem 'bootstrap-sass'
 #Devise
 
 gem 'devise'
+
+#paperclip
+
+gem 'paperclip'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
